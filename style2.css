@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat'),
+        url('./Montserrat/Montserrat.woff2') format('woff2'),
+        url('./Montserrat/Montserrat.woff') format('woff'),
+        url('./Montserrat/Montserrat.ttf') format('ttf'),
+        url('./Montserrat/Montserrat.eot') format('eot');
+}
+@font-face {
+    font-family: 'Spectral SC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Spectral SC'),
+        url('./SpectralSC/Spectral\ SC\ Light.woff2') format('woff2'),
+        url('./SpectralSC/Spectral\ SC\ Light.woff') format('woff'),
+        url('./SpectralSC/Spectral\ SC\ Light.ttf') format('ttf'),
+        url('./SpectralSC/Spectral\ SC\ Light.eot') format('eot');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.registration{
+    width: 600px;
+    height: 1020px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+    border-radius: 20px;
+}
+.cross{
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 250px;
+}
+.regis{
+    width: 415px;
+    height: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #424242;
+}
+input{
+    width: 385px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 83px;
+    padding: 0 3%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+}
+label{
+    width: 420px;
+    height: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125%;
+    color: #424242;
+    margin-top: -30px;
+}
+.btnreg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg{
+    width: 295px;
+    height: 50px;
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    border-radius: 49px;    
+    font-family: 'Spectral SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.reg:hover{
+    background: linear-gradient(102.48deg, #7B4646 -29.03%, #ad5f5f 97.75%);
+}
+.reg:active{
+    background: none;
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.line{
+    width: 385px;
+    border-bottom: 1px solid #BDBDBD;
+}
+.underline{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ha{
+    width: 114px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+}
+.enter{
+    width: 152px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 49px;
+    background: white;
+    font-family: 'Spectral SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.enter:hover{
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.enter:active{
+    color: white;
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);    
+}
